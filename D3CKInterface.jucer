@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="xblBfm" name="D3CKInterface" projectType="library" version="1.2"
+<JUCERPROJECT id="xblBfm" name="D3CKInterface" projectType="library" version="1.5"
               bundleIdentifier="com.audioD3CK.D3CKInterface" includeBinaryInAppConfig="1"
               jucerVersion="3.1.0" companyEmail="support@audio.d3ck.net" companyWebsite="http://audio.d3ck.net"
               companyName="audioD3CK" pluginManufacturerEmail="support@audio.d3ck.net"
@@ -8,21 +8,39 @@
               pluginManufacturer="audioD3CK" pluginDesc="D3CKInterface" pluginName="D3CKInterface"
               buildAAX="1" buildRTAS="0" buildVST3="1" buildAU="1" buildVST="1">
   <MAINGROUP id="s5auG2" name="D3CKInterface">
-    <GROUP id="{7C473263-089A-F6EE-73FA-0110E1F6C97D}" name="Source">
-      <FILE id="UOaVFg" name="NamedObject.cpp" compile="1" resource="0" file="Source/NamedObject.cpp"/>
-      <FILE id="HxuAIF" name="NamedObject.h" compile="0" resource="0" file="Source/NamedObject.h"/>
-      <FILE id="YZQdOl" name="TaggedItemBase.cpp" compile="1" resource="0"
-            file="Source/TaggedItemBase.cpp"/>
-      <FILE id="UW48wH" name="TaggedItemBase.h" compile="0" resource="0"
-            file="Source/TaggedItemBase.h"/>
-      <FILE id="OVZd28" name="TaggedItemHandler.cpp" compile="1" resource="0"
-            file="Source/TaggedItemHandler.cpp"/>
-      <FILE id="KLdj1S" name="TaggedItemHandler.h" compile="0" resource="0"
-            file="Source/TaggedItemHandler.h"/>
-      <FILE id="dRJKx2" name="TaggedItemSource.cpp" compile="1" resource="0"
-            file="Source/TaggedItemSource.cpp"/>
-      <FILE id="LpDk4b" name="TaggedItemSource.h" compile="0" resource="0"
-            file="Source/TaggedItemSource.h"/>
+    <GROUP name="Source">
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemSource.h"
+            name="TaggedItemSource.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemSource.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemSource.cpp"
+            name="TaggedItemSource.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemSource.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemHandler.h"
+            name="TaggedItemHandler.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemHandler.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemHandler.cpp"
+            name="TaggedItemHandler.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemHandler.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemBase.h"
+            name="TaggedItemBase.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemBase.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemBase.cpp"
+            name="TaggedItemBase.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/TaggedItemBase.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/Object.h"
+            name="Object.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/Object.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/Object.cpp"
+            name="Object.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/Object.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/NamedObject.h"
+            name="NamedObject.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/NamedObject.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/NamedObject.cpp"
+            name="NamedObject.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/NamedObject.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/Length.h"
+            name="Length.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/Length.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/Length.cpp"
+            name="Length.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/Length.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/IconSource.h"
+            name="IconSource.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/IconSource.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/IconSource.cpp"
+            name="IconSource.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/IconSource.cpp"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/DraggableObject.h"
+            name="DraggableObject.h" compile="0" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/DraggableObject.h"/>
+      <FILE id="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/DraggableObject.cpp"
+            name="DraggableObject.cpp" compile="1" resource="0" file="/Users/jms/Development/audioD3CK/source/D3CKInterface/Source/DraggableObject.cpp"/>
     </GROUP>
     <GROUP name="deps" id="Ea2pAv"/>
   </MAINGROUP>
@@ -37,8 +55,8 @@
                        isDebug="1" optimisation="1" targetName="D3CKInterface" headerPath="&#10;/Users/jms/Development/audioD3CK/lib/FFTReal-2.11&#10;/Users/jms/Development/audioD3CK/lib/sqlite-amalgamation-3080500"
                        libraryPath=""/>
         <CONFIGURATION name="Test" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
-                       isDebug="1" optimisation="3" targetName="D3CKInterface" headerPath="/Users/jms/Development/audioD3CK/lib/FFTReal-2.11&#10;/Users/jms/Development/audioD3CK/lib/sqlite-amalgamation-3080500"
-                       libraryPath=""/>
+                       isDebug="0" optimisation="3" targetName="D3CKInterface" headerPath="/Users/jms/Development/audioD3CK/lib/FFTReal-2.11&#10;/Users/jms/Development/audioD3CK/lib/sqlite-amalgamation-3080500"
+                       libraryPath="" customXcodeFlags="GCC_GENERATE_DEBUGGING_SYMBOLS=YES,COPY_PHASE_STRIP=NO"/>
         <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="10.4 SDK" osxArchitecture="64BitUniversal"
                        isDebug="0" optimisation="3" targetName="D3CKInterface" headerPath="/Users/jms/Development/audioD3CK/lib/FFTReal-2.11&#10;/Users/jms/Development/audioD3CK/lib/sqlite-amalgamation-3080500"
                        libraryPath=""/>
@@ -69,14 +87,18 @@
                        isDebug="1" optimisation="1" targetName="D3CKInterface" libraryPath=""
                        headerPath="&#10;g://Development/audioD3CK/lib/FFTReal-2.11&#10;g://Development/audioD3CK/lib/sqlite-amalgamation-3080500"
                        useRuntimeLibDLL="0"/>
-        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+        <CONFIGURATION name="Release32" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
                        isDebug="0" optimisation="3" targetName="D3CKInterface" libraryPath=""
                        headerPath="&#10;g://Development/audioD3CK/lib/FFTReal-2.11&#10;g://Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;"
                        useRuntimeLibDLL="0" postbuildCommand=""/>
-        <CONFIGURATION name="Release64" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
                        isDebug="0" optimisation="3" targetName="D3CKInterface" libraryPath=""
                        headerPath="&#10;g://Development/audioD3CK/lib/FFTReal-2.11&#10;g://Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;"
                        useRuntimeLibDLL="0" postbuildCommand=""/>
+        <CONFIGURATION name="Test" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="D3CKInterface" libraryPath=""
+                       headerPath="&#10;g://Development/audioD3CK/lib/FFTReal-2.11&#10;g://Development/audioD3CK/lib/sqlite-amalgamation-3080500&#10;"
+                       useRuntimeLibDLL="0" postbuildCommand="" alwaysGenerateDebugSymbols="1"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_video" path="g://GIT/JUCE/modules"/>

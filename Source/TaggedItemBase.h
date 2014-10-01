@@ -1,9 +1,11 @@
 #pragma once
 #include "JuceHeader.h"
 #include "NamedObject.h"
+#include "DraggableObject.h"
 
 class TaggedItemBase:
-virtual public NamedObject
+virtual public NamedObject,
+virtual public DraggableObject
 {
 public:
     virtual ~TaggedItemBase();
@@ -13,7 +15,6 @@ public:
     
    	virtual String getType()const = 0;
     virtual File getFile()const = 0;
-    virtual String getData()const = 0;
     virtual TaggedItemBase* clone() const = 0;
     
     
