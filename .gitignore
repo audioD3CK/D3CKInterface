@@ -1,0 +1,8 @@
+JuceLibraryCode
+Builds
+.DS_Store
+built.mac.Debug.md5
+built.mac.Release.md5
+built.win.Debug.md5
+D3CKInterface.jucer.md5
+D3CKInterface.pkgproj
